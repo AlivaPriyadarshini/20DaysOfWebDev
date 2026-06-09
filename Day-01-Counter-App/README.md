@@ -45,6 +45,8 @@ Counter-App/
 * Animated counter transitions
 * Sound effects on button clicks
 
+## 🌐 Live Demo
+https://day-01-counter-app.netlify.app/
 ---
 
 **Day 01 – 20 Days of Web Development Challenge 🚀**
