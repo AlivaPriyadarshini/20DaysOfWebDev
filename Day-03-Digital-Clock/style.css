@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins,sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg,#667eea,#764ba2);
+}
+
+.container{
+    width: 420px;
+    text-align: center;
+    padding: 35px;
+    background: rgba(255,255,255,.12);
+    backdrop-filter: blur(12px);
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.35);
+}
+
+h1{
+    color: white;
+    margin-bottom: 25px;    
+}
+
+.clock{
+    padding: 25px;
+    border-radius: 15px;
+    background: rgba(255,255,255,.08);
+}
+
+.time{
+    font-size: 3rem;
+    color: white;
+    letter-spacing: 3px;
+    margin-bottom:15px ;
+    text-shadow: 0 0 15px rgba(255,255,255,.4);
+}
+
+.date{
+    color: white;
+    font-size: 1rem;
+}
+
+
