@@ -39,7 +39,7 @@ function updateClock(){
         "December"
     ]
 
-    date.textContent - `${days[now.getDay()]}, ${now.getDate()} ${months[now.getMonth()]} ${now.getFullYear}`;
+    date.textContent = `${days[now.getDay()]}, ${now.getDate()} ${months[now.getMonth()]} ${now.getFullYear()}`;
 }
 
 updateClock();
