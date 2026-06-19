@@ -13,7 +13,7 @@ A simple and interactive **Password Generator** built using **HTML, CSS, and Jav
 
 ## 🌐 Live Demo
 
-**🔗 Live Website:** *https://day-11-password-generator.vercel.app
+**🔗 Live Website:** https://day-11-password-generator.vercel.app
 
 ## 🛠️ Technologies Used
 
