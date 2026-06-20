@@ -15,30 +15,37 @@ const images = [
 
 let index = 0;
 
-function showImage(){
+// Display the current image
+function showImage() {
     slider.src = images[index];
 }
 
-next.addEventListener("click",()=>{
-    index++;
-    if(index >= images.length){
-        index = 0;
-    }
-
-    showImage();
-});
-
-prev.addEventListener("click",()=>{
-    index--;
-    if (index < 0) {
-        index = 0
-    }
-});
-
-setInterval(()=>{
+// Next Button
+next.addEventListener("click", () => {
     index++;
     if (index >= images.length) {
-        index = 0 ;
+        index = 0;
     }
     showImage();
-},3000)
+});
+
+// Previous Button
+prev.addEventListener("click", () => {
+    index--;
+    if (index < 0) {
+        index = images.length - 1;
+    }
+    showImage();
+});
+
+// Auto Slide Every 3 Seconds
+setInterval(() => {
+    index++;
+    if (index >= images.length) {
+        index = 0;
+    }
+    showImage();
+}, 3000);
+
+// Show first image when page loads
+showImage();
